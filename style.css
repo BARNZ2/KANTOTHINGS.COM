@@ -92,3 +92,27 @@ body {
     border-radius: 5px; /* Optional: Rounded corners */
     padding: 5px; /* Optional: Add some padding */
 }
+#eventsButton {
+    position: absolute;
+    top: 79.3%; /* Align with the Discord button */
+    left: 35%; /* Position next to Discord button */
+    padding: 12px 25px;
+    background-color: #00ff00; /* Different color for Events */
+    color: #000;
+    font-size: 1.4em;
+    font-family: 'Arial Black', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 3px solid #00ff00;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+#eventsButton:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+    background-color: #1aff1a;
+    color: #fff;
+}
